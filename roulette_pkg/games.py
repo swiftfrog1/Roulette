@@ -222,7 +222,7 @@ class RouletteGames:
         bet_amt = 0.0
         winning_numbers = ["00", "0", "1", "2", "3"]
         print(
-            "\nSUCKER BET (Five Bet):\nIf the pill lands on any of the numbers listed below you win. (odds 6:1)\nWinning numbers: {winning_numbers}\n")
+            f"\nSUCKER BET (Five Bet):\nIf the pill lands on any of the numbers listed below you win. (odds 6:1)\nWinning numbers: {winning_numbers}\n")
         bet_amt = self.bet_amount(balance)
 
         spin = game_table.spin()
