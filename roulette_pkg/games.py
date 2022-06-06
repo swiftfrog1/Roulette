@@ -320,7 +320,7 @@ class RouletteGames:
         dozen = []
         # flattened lists for each third of the playing board
         thirds = {
-            1: [x for l in list(board[1:4]) for x in l],
+            1: [x for l in list(board[1:5]) for x in l],
             2: [x for l in list(board[5:9]) for x in l],
             3: [x for l in list(board[9:]) for x in l]
         }
